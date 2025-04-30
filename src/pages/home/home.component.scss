@@ -1,762 +1,168 @@
-.accueil-LSF-BLFS {
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .accueil-LSF-BLFS .div {
-    background-color: #ffffff;
-    width: 1440px;
-    height: 1377px;
-    position: relative;
-  }
-  
-  .accueil-LSF-BLFS .overlap {
-    position: absolute;
-    width: 1440px;
-    height: 922px;
-    top: 455px;
-    left: 0;
-  }
-  
-  .accueil-LSF-BLFS .footer-center {
-    position: absolute;
-    width: 1440px;
-    height: 271px;
-    top: 1106px;
-    left: 0;
-    background-color: #f2f2f2;
-  }
-  
-  .accueil-LSF-BLFS .logo {
-    position: absolute;
-    width: 76px;
-    top: 73px;
-    left: 682px;
-    font-family: "Roboto-Bold", Helvetica;
-    font-weight: 700;
-    color: #000000;
-    font-size: 24px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
-  }
-  
-  .accueil-LSF-BLFS .copyright {
-    position: absolute;
-    width: 96px;
-    top: 235px;
-    left: 614px;
-    font-family: "Roboto-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 14px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 19.7px;
-    white-space: nowrap;
-  }
-  
-  .accueil-LSF-BLFS .link {
-    position: absolute;
-    width: 103px;
-    top: 235px;
-    left: 722px;
-    font-family: "Roboto-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 14px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: 19.7px;
-    white-space: nowrap;
-  }
-  
-  .accueil-LSF-BLFS .divider {
-    position: absolute;
-    width: 1000px;
-    height: 1px;
-    top: 124px;
-    left: 220px;
-    object-fit: cover;
-  }
-  
-  .accueil-LSF-BLFS .links-left {
-    width: 173px;
-    left: 262px;
-    position: absolute;
-    height: 13px;
-    top: 76px;
-  }
-  
-  .accueil-LSF-BLFS .text-wrapper {
-    width: 50px;
-    top: 0;
-    left: 0;
-    font-family: "Roboto-Bold", Helvetica;
-    font-weight: 700;
-    color: #000000;
-    font-size: 14px;
-    line-height: 19.7px;
-    position: absolute;
-    letter-spacing: 0;
-    white-space: nowrap;
-  }
-  
-  .accueil-LSF-BLFS .link-2 {
-    width: 55px;
-    top: 0;
-    left: 114px;
-    font-family: "Roboto-Bold", Helvetica;
-    font-weight: 700;
-    color: #000000;
-    font-size: 14px;
-    line-height: 19.7px;
-    position: absolute;
-    letter-spacing: 0;
-    white-space: nowrap;
-  }
-  
-  .accueil-LSF-BLFS .links-right {
-    width: 148px;
-    left: 980px;
-    position: absolute;
-    height: 13px;
-    top: 76px;
-  }
-  
-  .accueil-LSF-BLFS .link-3 {
-    width: 29px;
-    top: 0;
-    left: 0;
-    font-family: "Roboto-Bold", Helvetica;
-    font-weight: 700;
-    color: #000000;
-    font-size: 14px;
-    line-height: 19.7px;
-    position: absolute;
-    letter-spacing: 0;
-    white-space: nowrap;
-  }
-  
-  .accueil-LSF-BLFS .link-4 {
-    width: 51px;
-    top: 0;
-    left: 93px;
-    font-family: "Roboto-Bold", Helvetica;
-    font-weight: 700;
-    color: #000000;
-    font-size: 14px;
-    line-height: 19.7px;
-    position: absolute;
-    letter-spacing: 0;
-    white-space: nowrap;
-  }
-  
-  .accueil-LSF-BLFS .social-media {
-    position: absolute;
-    width: 296px;
-    height: 26px;
-    top: 161px;
-    left: 572px;
-  }
-  
-  .accueil-LSF-BLFS .group {
-    left: 256px;
-    position: absolute;
-    width: 40px;
-    height: 26px;
-    top: 0;
-  }
-  
-  .accueil-LSF-BLFS .overlap-group {
-    position: relative;
-    height: 26px;
-    border-radius: 20px / 13.22px;
-  }
-  
-  .accueil-LSF-BLFS .image {
-    position: absolute;
-    width: 28px;
-    height: 18px;
-    top: 5px;
-    left: 6px;
-  }
-  
-  .accueil-LSF-BLFS .ellipse {
-    position: absolute;
-    width: 40px;
-    height: 26px;
-    top: 0;
-    left: 0;
-    border-radius: 20px / 13.22px;
-    border: 1px solid;
-    border-color: #000000;
-  }
-  
-  .accueil-LSF-BLFS .overlap-wrapper {
-    left: 192px;
-    position: absolute;
-    width: 40px;
-    height: 26px;
-    top: 0;
-  }
-  
-  .accueil-LSF-BLFS .overlap-group-wrapper {
-    left: 128px;
-    position: absolute;
-    width: 40px;
-    height: 26px;
-    top: 0;
-  }
-  
-  .accueil-LSF-BLFS .div-wrapper {
-    left: 64px;
-    position: absolute;
-    width: 40px;
-    height: 26px;
-    top: 0;
-  }
-  
-  .accueil-LSF-BLFS .group-2 {
-    left: 0;
-    position: absolute;
-    width: 40px;
-    height: 26px;
-    top: 0;
-  }
-  
-  .accueil-LSF-BLFS .CTA-narrow {
-    position: absolute;
-    width: 1440px;
-    height: 391px;
-    top: 996px;
-    left: 0;
-  }
-  
-  .accueil-LSF-BLFS .overlap-2 {
-    position: relative;
-    height: 165px;
-    top: -35px;
-  }
-  
-  .accueil-LSF-BLFS .background {
-    position: absolute;
-    width: 1440px;
-    height: 160px;
-    top: 0;
-    left: 0;
-    background-color: #f2f2f2;
-  }
-  
-  .accueil-LSF-BLFS .button-primary {
-    position: absolute;
-    width: 279px;
-    height: 62px;
-    top: 103px;
-    left: 145px;
-    background-color: #000000;
-    border-radius: 5px;
-  }
-  
-  .accueil-LSF-BLFS .text {
-    position: absolute;
-    width: 230px;
-    height: 22px;
-    top: 20px;
-    left: 25px;
-    font-family: "Roboto-Medium", Helvetica;
-    font-weight: 500;
-    color: #ffffff;
-    font-size: 18px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .accueil-LSF-BLFS .posts-blog-top {
-    position: absolute;
-    width: 1440px;
-    height: 391px;
-    top: 445px;
-    left: 0;
-  }
-  
-  .accueil-LSF-BLFS .overlap-3 {
-    position: relative;
-    height: 563px;
-  }
-  
-  .accueil-LSF-BLFS .rectangle {
-    position: absolute;
-    width: 1440px;
-    height: 522px;
-    top: 0;
-    left: 0;
-    background-color: #f2f2f2;
-  }
-  
-  .accueil-LSF-BLFS .blog-card {
-    position: absolute;
-    width: 569px;
-    height: 260px;
-    top: 303px;
-    left: 145px;
-  }
-  
-  .accueil-LSF-BLFS .group-3 {
-    width: 573px;
-    height: 260px;
-  }
-  
-  .accueil-LSF-BLFS .overlap-group-2 {
-    background-color: #ffffff;
-    position: relative;
-    width: 569px;
-    height: 260px;
-  }
-  
-  .accueil-LSF-BLFS .link-5 {
-    width: 68px;
-    top: 207px;
-    left: 251px;
-    font-family: "Roboto-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 14px;
-    line-height: 19.7px;
-    position: absolute;
-    letter-spacing: 0;
-    white-space: nowrap;
-  }
-  
-  .accueil-LSF-BLFS .title {
-    position: absolute;
-    width: 473px;
-    top: 43px;
-    left: 48px;
-    font-family: "Roboto-Bold", Helvetica;
-    font-weight: 700;
-    color: #000000;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: 33.8px;
-  }
-  
-  .accueil-LSF-BLFS .group-wrapper {
-    width: 569px;
-    top: 303px;
-    left: 731px;
-    position: absolute;
-    height: 260px;
-  }
-  
-  .accueil-LSF-BLFS .link-6 {
-    width: 68px;
-    top: 206px;
-    left: 251px;
-    font-family: "Roboto-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 14px;
-    line-height: 19.7px;
-    position: absolute;
-    letter-spacing: 0;
-    white-space: nowrap;
-  }
-  
-  .accueil-LSF-BLFS .blog-card-feature {
-    width: 573px;
-    top: 21px;
-    left: 145px;
-    position: absolute;
-    height: 260px;
-  }
-  
-  .accueil-LSF-BLFS .overlap-4 {
-    background-color: #000000;
-    position: relative;
-    width: 569px;
-    height: 260px;
-  }
-  
-  .accueil-LSF-BLFS .title-2 {
-    width: 517px;
-    top: 13px;
-    left: 18px;
-    font-family: "Roboto-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 48px;
-    line-height: normal;
-    position: absolute;
-    letter-spacing: 0;
-  }
-  
-  .accueil-LSF-BLFS .link-7 {
-    width: 42px;
-    top: 165px;
-    left: 255px;
-    font-family: "Roboto-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 18px;
-    line-height: 25.3px;
-    position: absolute;
-    letter-spacing: 0;
-    white-space: nowrap;
-  }
-  
-  .accueil-LSF-BLFS .blog-card-feature-2 {
-    position: absolute;
-    width: 573px;
-    height: 260px;
-    top: 21px;
-    left: 731px;
-  }
-  
-  .accueil-LSF-BLFS .title-3 {
-    width: 526px;
-    top: 12px;
-    left: 27px;
-    font-family: "Roboto-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 48px;
-    line-height: normal;
-    position: absolute;
-    letter-spacing: 0;
-  }
-  
-  .accueil-LSF-BLFS .link-8 {
-    width: 42px;
-    top: 165px;
-    left: 264px;
-    font-family: "Roboto-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 18px;
-    line-height: 25.3px;
-    position: absolute;
-    letter-spacing: 0;
-    white-space: nowrap;
-  }
-  
-  .accueil-LSF-BLFS .hero-center {
-    position: absolute;
-    width: 1440px;
-    height: 391px;
-    top: 64px;
-    left: 0;
-    background-color: #f2f2f2;
-  }
-  
-  .accueil-LSF-BLFS .button-primary-2 {
-    position: absolute;
-    width: 280px;
-    height: 64px;
-    top: 260px;
-    left: 145px;
-    background-color: #000000;
-    border-radius: 5px;
-  }
-  
-  .accueil-LSF-BLFS .text-2 {
-    position: absolute;
-    width: 231px;
-    height: 22px;
-    top: 21px;
-    left: 25px;
-    font-family: "Roboto-Medium", Helvetica;
-    font-weight: 500;
-    color: #ffffff;
-    font-size: 18px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .accueil-LSF-BLFS .subtitle {
-    position: absolute;
-    width: 660px;
-    top: 148px;
-    left: 145px;
-    font-family: "Roboto-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: 28.1px;
-  }
-  
-  .accueil-LSF-BLFS .title-4 {
-    width: 790px;
-    height: 50px;
-    top: 66px;
-    left: 145px;
-    font-family: "Roboto-Medium", Helvetica;
-    font-weight: 500;
-    color: #000000;
-    font-size: 64px;
-    line-height: 52.5px;
-    white-space: nowrap;
-    position: absolute;
-    letter-spacing: 0;
-  }
-  
-  .accueil-LSF-BLFS .img {
-    position: absolute;
-    width: 280px;
-    height: 280px;
-    top: 27px;
-    left: 1021px;
-  }
-  
-  .accueil-LSF-BLFS .naviation-right {
-    position: absolute;
-    width: 1440px;
-    height: 64px;
-    top: 0;
-    left: 0;
-    background-color: #ffffff;
-  }
-  
-  .accueil-LSF-BLFS .navbar {
-    position: absolute;
-    width: 595px;
-    height: 22px;
-    top: 21px;
-    left: 720px;
-  }
-  
-  .accueil-LSF-BLFS .link-9 {
-    left: 528px;
-    position: absolute;
-    width: 53px;
-    height: 22px;
-    top: 0;
-    font-family: "Roboto-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 18px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .accueil-LSF-BLFS .link-10 {
-    left: 440px;
-    position: absolute;
-    width: 53px;
-    height: 22px;
-    top: 0;
-    font-family: "Roboto-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 18px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .accueil-LSF-BLFS .link-11 {
-    left: 352px;
-    position: absolute;
-    width: 53px;
-    height: 22px;
-    top: 0;
-    font-family: "Roboto-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 18px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .accueil-LSF-BLFS .link-12 {
-    left: 264px;
-    position: absolute;
-    width: 53px;
-    height: 22px;
-    top: 0;
-    font-family: "Roboto-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 18px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .accueil-LSF-BLFS .link-13 {
-    left: 176px;
-    position: absolute;
-    width: 53px;
-    height: 22px;
-    top: 0;
-    font-family: "Roboto-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 18px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .accueil-LSF-BLFS .link-14 {
-    left: 88px;
-    position: absolute;
-    width: 53px;
-    height: 22px;
-    top: 0;
-    font-family: "Roboto-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 18px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .accueil-LSF-BLFS .link-15 {
-    left: 0;
-    position: absolute;
-    width: 53px;
-    height: 22px;
-    top: 0;
-    font-family: "Roboto-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 18px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .accueil-LSF-BLFS .title-5 {
-    top: 21px;
-    left: 219px;
-    font-family: "Roboto-Bold", Helvetica;
-    font-weight: 700;
-    color: #000000;
-    font-size: 24px;
-    line-height: normal;
-    position: absolute;
-    letter-spacing: 0;
-  }
-  
-  .accueil-LSF-BLFS .logo-2 {
-    position: absolute;
-    width: 53px;
-    height: 54px;
-    top: 5px;
-    left: 145px;
-  }
-  /* Original CSS code */
-  
-  /* Additional CSS for improved accessibility and semantics */
-  .accueil-LSF-BLFS {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .naviation-right {
-    display: flex;
-    align-items: center;
-    padding: 0 20px;
-  }
-  
-  .navbar ul {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .navbar li {
-    margin-left: 20px;
-  }
-  
-  .navbar a {
-    text-decoration: none;
-    color: inherit;
-  }
-  
-  .hero-center {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 40px 0;
-  }
-  
-  .button-primary-2,
-  .button-primary {
-    display: inline-block;
-    text-decoration: none;
-  }
-  
-  .posts-blog-top {
-    padding: 40px 0;
-  }
-  
-  .blog-card,
-  .blog-card-feature,
-  .blog-card-feature-2 {
-    margin-bottom: 20px;
-  }
-  
-  .footer-center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 40px 0;
-  }
-  
-  .footer-center nav {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 1000px;
-    margin-bottom: 20px;
-  }
-  
-  .social-media a {
-    text-decoration: none;
-    color: inherit;
-  }
-  
-  /* Improved focus styles for accessibility */
-  a:focus,
-  button:focus {
-    outline: 2px solid #4a90e2;
-    outline-offset: 2px;
-  }
-  
-  /* Responsive adjustments */
-  @media (max-width: 768px) {
-    .hero-center,
-    .posts-blog-top,
-    .footer-center {
-      padding-left: 20px;
-      padding-right: 20px;
-    }
-  
-    .naviation-right {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    .navbar {
-      margin-top: 20px;
-    }
-  
-    .navbar ul {
-      flex-direction: column;
-    }
-  
-    .navbar li {
-      margin-left: 0;
-      margin-bottom: 10px;
-    }
-  }
-  
+/* Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  background-color: #f3f4f6; /* light gray background */
+  color: #111827; /* dark gray text */
+}
+
+/* Main container */
+.accueil {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+main {
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 4rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.hero-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.hero-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  color: #000000a1;
+}
+
+.hero-image {
+  flex: 1;
+  min-width: 250px;
+  text-align: center;
+}
+
+.hero-image img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+}
+
+/* Button */
+.button {
+  background-color: #5cb85c;
+  color: #fff;
+  padding: 0.75rem 2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 600;
+  transition: background-color 0.3s;
   
+}
+
+.button:hover {
+  background-color: #333333a8;
+}
+
+.large {
+  margin-top: 2rem;
+  padding: 1rem 3rem;
+  font-size: 1.25rem;
+  background-color: #fff;
+  color: #111827;
+  border-color: #11182728;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.large:hover {
+  background-color: #38bdf8;
+  color: #fff;
+  border: none;
+}
+
+/* Blog Posts Section */
+.blog-posts {
+  //display: grid;
+  display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.blog-card {
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.blog-card h3 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.blog-card p {
+  font-size: 0.8rem;
+}
+
+.blog-card a {
+  display: inline-block; /* or inline-block */
+  color: inherit;
+  text-decoration: underline;
+  font-weight: bold;
+  padding-top: 10px; /* optional, works with inline-block */
+}
+
+.blog-card a:hover {
+ color: #38bdf8;
+}
+
+/* Black and White Card variations */
+.blog-card.black {
+  background-color: #000;
+  color: #fff;
+}
+
+.blog-card.white {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #e5e7eb;
+}
+
+.links {
+ 
+}
+
+/* CTA section */
+.cta {
+  text-align: center;
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-content, .hero-image {
+    flex: 1 1 100%;
+  }
+}

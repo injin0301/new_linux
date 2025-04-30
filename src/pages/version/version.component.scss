@@ -1,0 +1,129 @@
+body {
+    color: #111827;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .lfs-hero {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .lfs-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .lfs-hero .intro {
+    font-size: 1.125rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #111827a9;
+  }
+  
+  .benefits {
+    list-style-type: disc;
+    list-style: none;
+    text-align: left;
+    margin: 0 auto 2rem;
+    max-width: 700px;
+    padding-left: 1.5rem;
+    color: #204596da;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .button {
+    background-color: #5cb85c;
+    color: #fff;
+    padding: 0.8rem 2.2rem;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #333;
+  }
+  
+  .note {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-style: italic;
+  }
+  
+  /* Posts grid */
+  .lfs-posts {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+  }
+  
+  .post-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .post-card {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+  
+  .post-card h3 {
+    margin-bottom: 0.75rem;
+    font-size: 1.5rem;
+  }
+  
+  .post-card p {
+    margin-bottom: 0.5rem;
+    color: #6b7280;
+    font-size: 1rem;
+  }
+  
+  .post-card small {
+    display: block;
+    margin-bottom: 1rem;
+    color: #38bdf8;
+    font-size: 0.875rem;
+  }
+  
+  .post-card a {
+    color: #333;
+    text-decoration: underline;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-nav {
+      display: none;
+    }
+  
+    .button-group {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .lfs-hero h1 {
+      font-size: 2rem;
+    }
+  }
+  
